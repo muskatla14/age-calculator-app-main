@@ -72,7 +72,7 @@ function setError(input, message) {
     small.innerText = message;
 
     formControl.className = 'form-group error';
-    input.style.border = '2px solid red';
+    input.style.border = '2px solid #ff5757';
 }   
 
 
